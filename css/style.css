@@ -115,12 +115,6 @@ nav{
     border-top: 2px solid ;
 }
 
-/********** Main Section ********/
-
-.main-title{
-    font-size: 22px;
-    margin-bottom: 8px;
-}
 
 /* Formulaire de recherche */
 
@@ -264,7 +258,7 @@ nav{
 .hebergements-cards .card{
     display: flex;
     flex-direction: column;
-    width: 250.33px;
+    width: 30%;
     height: 207.25px;
     gap: 8px;
 }
@@ -331,7 +325,39 @@ nav{
     margin-bottom: 5px;
 }
 
+/******* Activités à Marseille *******/
+#activite-marseille .section-title{
+    margin: 65px 0px 30px 35px;
+}
 
+.activities-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.activities-cards .card{
+    width: 297.5px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 439px;
+    padding: 0px;
+    margin: 0px 0px 30px 30px;
+}
+
+.activities-cards .card img{
+    object-fit: cover;
+    height: 380px;
+    width: 297.5px;
+    border-radius: 20px 20px 0px 0px;
+}    
+
+.activities-cards .card .card-txt{
+    padding: 20px 19px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
