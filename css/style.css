@@ -541,11 +541,9 @@ nav{
     .search-button{
         border-radius: 15px;
     }
-
     .search-form{
         width: 100%;
     }
-
     .search-form input{
         width: 100%;
         background-color: #ffffff;
