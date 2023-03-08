@@ -521,6 +521,7 @@ nav{
     }
     .filters-container .filtre-list{
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .filtre{
@@ -540,8 +541,13 @@ nav{
     .search-button{
         border-radius: 15px;
     }
+
+    .search-form{
+        width: 100%;
+    }
+
     .search-form input{
-        width: 75%;
+        width: 100%;
         background-color: #ffffff;
     }
 
