@@ -367,6 +367,12 @@ nav{
     object-fit: cover;
 }
 
+.activities-cards .card div{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
 .activities-cards .card h3{
     padding: 20px 0px 20px 19px;
 }
@@ -455,11 +461,8 @@ nav{
     }
 
     /* Activité Marseille */
-    
-
     .activities-cards .card img{
         height: 200px;
-        width: 100%;
     }   
 
     
