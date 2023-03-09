@@ -556,12 +556,11 @@ nav{
         width: 15%;
         border-radius: 15px;
         position: absolute;
-        right: 0px;
+        right: 20px;
         margin-right: 0;
     }
     .search-form{
         width: 100%;
-        position: relative;
     }
     .search-form input{
         width: 70%;
