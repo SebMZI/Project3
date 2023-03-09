@@ -500,9 +500,18 @@ nav{
 
     }
 
+    .nav li{
+        width: 50%;
+        text-align: center;
+        vertical-align: center;
+    }
+
     .nav-link:hover{
+        display: block;
+        width: 100%;
         border-top: none;
         border-bottom: 2px solid var(--main-color) ;
+        padding-bottom: 13px;
     }
 
 
@@ -530,6 +539,10 @@ nav{
         width: 35%;
         height: 50px;
     }
+
+    .location-icon{
+        width: 18%;
+    }
    
     .search-icon-hidden{
         display: inline-block;
@@ -539,14 +552,22 @@ nav{
     }
 
     .search-button{
+        width: 15%;
         border-radius: 15px;
+        position: absolute;
+        right: 0px;
+        margin-right: 0;
     }
     .search-form{
         width: 100%;
+        position: relative;
     }
     .search-form input{
-        width: 100%;
+        width: 70%;
         background-color: #ffffff;
+        border-right: none;
+        border-left: none;
+        position: relative;
     }
     .info-container{
         margin: 40px 0px 0px ;
