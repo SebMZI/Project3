@@ -575,6 +575,10 @@ nav{
         margin: 40px 0px 0px ;
     }
 
+    .info-div{
+        width: 8%;
+        height: 8%;
+    }
     /* Hebergement et populaires */
 
     .hebergements-and-populaires{
