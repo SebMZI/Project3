@@ -568,6 +568,8 @@ nav{
         border-right: none;
         border-left: none;
         position: relative;
+        text-align: left;
+        padding-left: 24px;
     }
     .info-container{
         margin: 40px 0px 0px ;
